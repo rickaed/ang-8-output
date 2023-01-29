@@ -2,10 +2,10 @@
     <form >
         <h4>Mes onomatopées</h4>
         <label for="onomatopia">Ajouter une onomatopée :</label>
-        <input id="onomatopia" type="string" name="onomatopia" [(ngModel)]="newOnomatopia" />
-    </form>
+        <input id="onomatopia" type="string" name="onomatopia"  [(ngModel)]="newOnomatopia" />    
 
     <div>
-        <button (click)="createOnomatopia()">Envoyer</button>
+        <button type="reset" (click)="createOnomatopia()">Envoyer</button>
       </div>
+    </form>
 </div>
